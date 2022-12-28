@@ -319,7 +319,7 @@ a {
 #cars {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 25px;
+    gap: 50px;
 }
 
 .car {
@@ -329,7 +329,6 @@ a {
     height: 430px;
     background: var(--color-background);
     border-radius: var(--card-border-radius);
-    box-shadow: var(--box-shadow);
 }
 
 .car .car-image {
@@ -352,6 +351,6 @@ a {
     box-shadow: var(--box-shadow);
 }
 
-.car .card-footer button:active {
-    box-shadow: none;
+.car .card-body {
+    text-align: center;
 }
