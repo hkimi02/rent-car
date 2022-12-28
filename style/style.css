@@ -315,3 +315,43 @@ a {
 .list .list-item {
     display: inline-block;
 }
+
+#cars {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.car {
+    display: grid;
+    justify-content: center;
+    width: 400px;
+    height: 430px;
+    background: var(--color-background);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.car .car-image {
+    margin-top: 3%;
+}
+
+.car .card-body,
+.car .card-footer {
+    display: grid;
+    justify-content: center;
+}
+
+.car .card-footer button {
+    height: 50px;
+    width: 50px;
+    border-radius: var(--border-radius-1);
+    background-color: var(--color-success);
+    border: 0;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+}
+
+.car .card-footer button:active {
+    box-shadow: none;
+}

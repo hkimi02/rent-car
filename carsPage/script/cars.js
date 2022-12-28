@@ -3,7 +3,7 @@ let cars = [{
         model: "X5",
         year: 2010,
         price: 50000,
-        rented: false,
+        rented: false, //rented false , true mekreya
         photo: '../assets/x5_car.jpg'
     },
     {
@@ -64,3 +64,5 @@ let cars = [{
         photo: '../assets/x5_car.jpg'
     },
 ]
+let space = document.getElementById('cars');
+console.log(space);
