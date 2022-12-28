@@ -75,7 +75,7 @@ for (i = 0; i < length; i++) {
     </div>
     <div class="card-body">
         <h3>${cars[i].name + ' '+cars[i].model }</h3>
-        <h3>${cars[i].price}</h3>
+        <h3>${cars[i].price + ' TND'}</h3>
         <h3>${cars[i].year}</h3>
         <h3>${cars[i].rented==false ? 'not rented' : 'rented'}</h3>
     </div>
