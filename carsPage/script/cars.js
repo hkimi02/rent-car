@@ -65,4 +65,4 @@ let cars = [{
     },
 ]
 let space = document.getElementById('cars');
-console.log(space);
+space.innerHTML += ''
