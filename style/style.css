@@ -354,3 +354,9 @@ a {
 .car .card-body {
     text-align: center;
 }
+
+.title {
+    color: var(--color-orange);
+    text-align: center;
+    font-size: 5rem;
+}
