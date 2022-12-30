@@ -60,7 +60,8 @@
         </nav>
         <div class="main">
             <h1 class="title">reclamation form</h1>
-            <form action="" method="post">
+            <form action="" method="post" onsubmit="event.preventDefault()">
+                <p id="erreur" class="erreur"></p>
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" placeholder="Enter your name" class="input-form">

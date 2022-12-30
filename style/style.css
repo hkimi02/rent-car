@@ -31,6 +31,13 @@
     --color-yellow: #ffbf00;
 }
 
+.erreur {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
 .dark-theme-variables {
     --color-background: #181a1e;
     --color-white: 202528;
