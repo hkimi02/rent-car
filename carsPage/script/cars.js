@@ -3,7 +3,7 @@ let cars = [{
         model: "X5",
         year: 2010,
         price: 50000,
-        rented: false, //rented false , true mekreya
+        rented: false,
         photo: '../assets/x5_car.jpg'
     },
     {
@@ -76,7 +76,7 @@ function rent() {
             } else {
                 cars[index].rented = false;
                 btn.innerHTML = 'RENT';
-                btn.style.backgroundColor = 'green';
+                btn.style.backgroundColor = '#41f1b6';
             }
         })
     })
