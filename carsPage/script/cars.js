@@ -2,7 +2,7 @@ let cars = [{
         name: "audi",
         model: "X5",
         year: 2010,
-        price: 50000,
+        price: 50,
         rented: false,
         photo: '../assets/x5_car.jpg'
     },
@@ -10,56 +10,56 @@ let cars = [{
         name: "punto",
         model: "X5",
         year: 2010,
-        price: 50000,
+        price: 50,
         rented: false,
         photo: '../assets/x5_car.jpg'
     }, {
         name: "fox",
         model: "X5",
         year: 2010,
-        price: 50000,
+        price: 50,
         rented: false,
         photo: '../assets/x5_car.jpg'
     }, {
         name: "BMW",
         model: "X5",
         year: 2010,
-        price: 50000,
+        price: 50,
         rented: false,
         photo: '../assets/x5_car.jpg'
     }, {
         name: "BMW",
         model: "X5",
         year: 2010,
-        price: 50000,
+        price: 50,
         rented: false,
         photo: '../assets/x5_car.jpg'
     }, {
         name: "BMW",
         model: "X5",
         year: 2010,
-        price: 50000,
+        price: 50,
         rented: false,
         photo: '../assets/x5_car.jpg'
     }, {
         name: "BMW",
         model: "X5",
         year: 2010,
-        price: 50000,
+        price: 50,
         rented: false,
         photo: '../assets/x5_car.jpg'
     }, {
         name: "BMW",
         model: "X5",
         year: 2010,
-        price: 50000,
+        price: 50,
         rented: false,
         photo: '../assets/x5_car.jpg'
     }, {
         name: "BMW",
         model: "X5",
         year: 2010,
-        price: 50000,
+        price: 50,
         rented: true,
         photo: '../assets/x5_car.jpg'
     },
@@ -93,9 +93,8 @@ for (i = 0; i < length; i++) {
     <div class="card-body">
         <h3>${"car number : " + (i+1)}</h3>
         <h3>${cars[i].name + ' '+cars[i].model }</h3>
-        <h3>${cars[i].price + ' TND'}</h3>
+        <h3>${cars[i].price + ' TND/par jour'}</h3>
         <h3>${cars[i].year}</h3>
-        <h3>${cars[i].rented==false ? 'not rented' : 'rented'}</h3>
     </div>
     <div class="card-footer">
         <button class="btn-rent">RENT</button>
