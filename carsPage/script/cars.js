@@ -63,6 +63,30 @@ let cars = [{
         rented: true,
         photo: '../assets/x5_car.jpg'
     },
+    {
+        name: "BMW",
+        model: "X5",
+        year: 2010,
+        price: 50,
+        rented: true,
+        photo: '../assets/x5_car.jpg'
+    },
+    {
+        name: "BMW",
+        model: "X5",
+        year: 2010,
+        price: 50,
+        rented: true,
+        photo: '../assets/x5_car.jpg'
+    },
+    {
+        name: "BMW",
+        model: "X5",
+        year: 2010,
+        price: 50,
+        rented: true,
+        photo: '../assets/x5_car.jpg'
+    },
 ]
 
 function rent() {
