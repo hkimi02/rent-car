@@ -334,7 +334,7 @@ a {
     justify-content: center;
     width: 400px;
     height: 430px;
-    background: var(--color-background);
+    background-color: var(--color-background);
     border-radius: var(--card-border-radius);
 }
 

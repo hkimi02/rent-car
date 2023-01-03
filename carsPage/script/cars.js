@@ -105,6 +105,9 @@ function rent() {
         })
     })
 }
+
+
+
 let space = document.getElementById('cars');
 let length = cars.length;
 let i = 0;
@@ -123,7 +126,6 @@ for (i = 0; i < length; i++) {
     <div class="card-footer">
         <button class="btn-rent">RENT</button>
     </div>
-</div>
-    `;
+</div>`;
 }
 rent();
