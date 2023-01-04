@@ -106,13 +106,24 @@ function rent() {
     })
 }
 
+function deleteCar() {
+    let btns = document.querySelectorAll('.btn-delete');
+    btns.forEach((btn, index) => {
+        btn.addEventListener('click', () => {
+            cars.splice(index, 1);
+            let space = document.getElementById('cars');
+            space.innerHTML = '';
+            showCars();
+        })
+    })
+}
 
-
-let space = document.getElementById('cars');
-let length = cars.length;
-let i = 0;
-for (i = 0; i < length; i++) {
-    space.innerHTML += `
+function showCars() {
+    let space = document.getElementById('cars');
+    let length = cars.length;
+    let i = 0;
+    for (i = 0; i < length; i++) {
+        space.innerHTML += `
     <div class="car">
     <div class="car-image">
         <img src="${cars[i].photo}" alt="" width="300px" width="300px">
@@ -124,8 +135,12 @@ for (i = 0; i < length; i++) {
         <h3>${cars[i].year}</h3>
     </div>
     <div class="card-footer">
-        <button class="btn-rent">RENT</button>
+    <button class="btn-rent">RENT</button>
+    <button class="btn-delete">delete</button>
     </div>
 </div>`;
+    }
 }
+showCars();
 rent();
+deleteCar();
